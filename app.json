@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/search/search",
+    "pages/minclass/minclass",
+    "pages/ranking/ranking",
+    "pages/details/details",
+    "pages/read/read",
+    "pages/help/help"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "书架",
+        "iconPath": "image/书籍.png",
+        "selectedIconPath": "image/书籍.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "书城",
+        "iconPath": "image/房子.png",
+        "selectedIconPath": "image/房子.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "搜索",
+        "iconPath": "image/搜索.png",
+        "selectedIconPath": "image/搜索.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "小说",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

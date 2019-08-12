@@ -1,0 +1,12 @@
+<view wx:for="{{arr}}" wx:key="index">
+<view class="box" bindtap="details" data-id="{{item._id}}">
+   <view>
+      <image src='https://statics.zhuishushenqi.com{{item.cover}}' class="img"></image>
+   </view>
+   <view class="box1">
+      <view>{{item.title}}</view>
+      <view class="box2">{{item.author}}</view>
+      <view class="box3">{{item.shortIntro}}</view>
+   </view>
+</view>
+</view>

@@ -1,0 +1,37 @@
+.box{
+  font-size: 40rpx;
+  font-weight: bold;
+  padding: 20rpx 30rpx;
+  border-bottom: #eee solid 2rpx;
+  margin-bottom: 30rpx
+}
+.box1{
+  line-height: 60rpx;
+  width: 90%;
+  margin: 0 auto;
+  text-indent:2em
+}
+.box3{
+  width: 350rpx;
+  margin: 60rpx auto;
+  display: flex
+}
+.box2{
+  width: 160rpx;
+  line-height: 60rpx;
+  background: pink;
+  text-align: center;
+  color: white;
+  border-bottom-left-radius:40rpx;
+  border-top-left-radius:40rpx;
+  margin-right: 10rpx
+}
+.box4{
+  width: 160rpx;
+  line-height: 60rpx;
+  background: pink;
+  text-align: center;
+  color: white;
+  border-bottom-right-radius:40rpx;
+  border-top-right-radius:40rpx;
+}

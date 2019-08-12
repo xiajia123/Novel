@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "书城",
+  "usingComponents": {
+    "van-tabs": "/lib/vant/tabs/index",
+    "van-tab": "/lib/vant/tab/index",
+    "arr": "../../component/class/class",
+    "list":"../../component/class/class"
+  }
+}

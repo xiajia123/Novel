@@ -1,0 +1,16 @@
+<van-tabs active="{{ active }}" bind:change="onChange">
+  <van-tab title="分类">
+    <view class="box">男生</view>
+    <arr arr="{{arr.male}}" type="male"></arr>
+    <view class="box">女生</view>
+    <arr arr="{{arr.female}}" type="female"></arr>
+    <view class="box">出版</view>
+    <arr arr="{{arr.press}}" type="press"></arr>
+  </van-tab>
+  <van-tab title="排行">
+    <view class="box">男生</view>
+      <list list="{{list.male}}"></list>
+     <view class="box">女生</view>
+      <list list="{{list.female}}"></list>
+  </van-tab>
+</van-tabs>

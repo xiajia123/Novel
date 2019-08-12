@@ -1,0 +1,42 @@
+<view>
+  <van-search value="{{ value }}" placeholder="输入书名或者作者名" input-align="center" bind:change="inp" />
+</view>
+<view wx:if="{{num === 0}}">
+  <view class="bo">
+    <view>大家都在搜</view>
+    <view class="bo1" bindtap="change">
+      <van-icon name="replay" class="icon" /> 换一换</view>
+  </view>
+  <view class="box6">
+    <view wx:for="{{iconColor}}" wx:key="{{index}}" data-index="{{index}}">
+      <view class="box7" style="background:{{item}}" bindtap="value" data-item="{{list[index]}}">{{list[index]}}</view>
+    </view>
+  </view>
+  <view class="bo">
+    <view>搜索历史</view>
+    <view class="bo1" bindtap="dele">
+      <van-icon name="delete" class="icon" /> 清空
+    </view>
+  </view>
+  <view class="box4">
+    <view wx:for="{{list1}}" wx:key="{{index}}">
+      <view class="box5" bindtap="History" data-item="{{item}}">{{item}}</view>
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{num === 1}}">
+  <view wx:for="{{arr}}" wx:key="index">
+    <view class="box" bindtap="details" data-id="{{item._id}}">
+      <view>
+        <image src='https://statics.zhuishushenqi.com{{item.cover}}' class="img"></image>
+      </view>
+      <view class="box1">
+        <view>{{item.title}}</view>
+        <view class="box2">{{item.author}}</view>
+        <view class="box3">{{item.shortIntro}}</view>
+        <view class="box8">最近收藏：{{item.latelyFollower}}</view>
+      </view>
+    </view>
+  </view>
+</view>

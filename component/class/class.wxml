@@ -1,0 +1,14 @@
+<van-row>
+  <van-col span="8" wx:for="{{arr}}" wx:key="{{index}}">
+    <view class="box1" bindtap="click" data-item="{{item}}">
+      <view>{{item.name}}</view>
+      <view class="box2">{{item.bookCount}}本</view>
+    </view>
+  </van-col>
+</van-row>
+<view wx:for="{{list}}" wx:key="{{index}}" bindtap="Ranking" data-item="{{item}}">
+  <view wx:if="{{item.collapse === false}}" class="box3">
+    <image src='https://statics.zhuishushenqi.com{{item.cover}}' class="img"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>

@@ -1,0 +1,63 @@
+.bo{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx
+}
+.bo1{
+  color: orange
+}
+.icon{
+  vertical-align: middle
+}
+.img {
+  width: 200rpx;
+  height: 310rpx;
+}
+
+.box {
+  display: flex;
+  padding: 30rpx 0;
+  border-bottom: #eee solid 2rpx 
+}
+
+.box1 {
+  margin-left: 30rpx;
+}
+
+.box2 {
+  margin: 20rpx 0;
+  font-size: 26rpx;
+}
+
+.box3 {
+  font-size: 26rpx;
+ display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+overflow: hidden;
+line-height: 50rpx
+}
+.box4{
+  display: flex;
+  margin: 20rpx 30rpx
+}
+.box5{
+  margin-right: 30rpx
+}
+.box6{
+  padding: 20rpx 30rpx;
+  display: flex;
+  flex-wrap: wrap
+}
+.box7{
+  margin-bottom: 20rpx;
+  margin-right: 30rpx;
+  color: white;
+  line-height: 60rpx;
+  padding: 0 20rpx
+}
+.box8{
+  margin: 20rpx 0;
+  color: orange;
+  font-size: 26rpx;
+}

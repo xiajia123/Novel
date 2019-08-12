@@ -1,0 +1,4 @@
+.box {
+  line-height: 80rpx;
+  margin-left: 20rpx;
+}

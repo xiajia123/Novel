@@ -1,0 +1,22 @@
+<view class="box">
+  <view>
+    <van-icon name="edit" size="24px" class="icon" bind:click="edit" wx:if="{{flag === false}}"/>
+    <van-icon name="passed" size="24px" class="icon" bind:click="ok" wx:if="{{flag === true}}"/>
+  </view>
+  <view>
+    <view>
+      <text class="text" bindtap="help">帮助</text>
+      <van-icon name="replay" size="22px" class="icon" />
+    </view>
+  </view>
+</view>
+<van-row>
+  <van-col span="8" wx:for="{{arr}}" wx:key="{{index}}" class="box2" bindtap="details" data-item="{{item}}">
+    <view data-id="{{item._id}}" class="box3">
+      <van-icon name="close" size="28px" class="box4" color="red" catchtap="delete" data-item="{{item}}" wx:if="{{flag === true}}"/>
+      <image src='https://statics.zhuishushenqi.com{{item.cover}}' class="img"></image>
+    </view>
+    <view>{{item.title}}</view>
+    <view>读到第{{item.num}}章</view>
+  </van-col>
+</van-row>

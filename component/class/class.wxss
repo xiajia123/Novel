@@ -1,0 +1,24 @@
+
+.box1 {
+  text-align: center;
+  padding: 20rpx 0;
+  border-top: #eee solid 2rpx;
+  border-right:  #eee solid 2rpx
+}
+
+.box2{
+  font-size: 24rpx;
+  margin-top: 20rpx
+}
+
+.img{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin: 0 20rpx
+}
+
+.box3{
+  padding: 20rpx 0;
+  border-bottom: #eee solid 2rpx
+}

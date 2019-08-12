@@ -1,0 +1,54 @@
+.img {
+  width: 200rpx;
+  height: 320rpx;
+}
+
+.box {
+  display: flex;
+  padding: 30rpx 0;
+  border-bottom: #eee solid 2rpx 
+}
+
+.box1 {
+  margin-left: 30rpx;
+}
+
+.box2 {
+  margin: 20rpx 0;
+  font-size: 26rpx;
+}
+
+.box3 {
+  font-size: 26rpx;
+ display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 3;
+overflow: hidden;
+line-height: 50rpx
+}
+
+.box4{
+  display: flex;
+  margin-top: 20rpx;
+}
+.box5{
+  line-height: 40rpx;
+  background: orange;
+  color: white;
+  font-size: 30rpx;
+  margin-right: 20rpx;
+}
+.box6{
+  line-height: 40rpx;
+  background: lightskyblue;
+  color: white;
+  font-size: 30rpx;
+  margin-right: 20rpx;
+}
+.box7{
+  line-height: 40rpx;
+  background:red;
+  color: white;
+  font-size: 30rpx;
+  margin-right: 20rpx;
+}
